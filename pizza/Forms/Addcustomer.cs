@@ -107,8 +107,8 @@ namespace pizza.Forms
             txtpizzaname.Text = "";
             txtsalad.Text = "";
             txtdrink.Text = "";
-            txtgovttax.Text = "";
-            txttotal.Text = "";
+            label69.Text = "";
+            label9.Text = "";
         }
     }
 }
