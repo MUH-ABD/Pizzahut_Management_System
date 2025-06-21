@@ -34,11 +34,11 @@
             txtpizzaname = new Label();
             txtsalad = new Label();
             txtdrink = new Label();
-            txtgovttax = new Label();
-            txttotal = new Label();
+            label69 = new Label();
+            label9 = new Label();
             textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            txttotal = new TextBox();
+            txtgovttax = new TextBox();
             textBox4 = new TextBox();
             comboBox1 = new ComboBox();
             comboBox2 = new ComboBox();
@@ -52,101 +52,113 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Cooper Black", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(410, 24);
+            label1.Location = new Point(287, 14);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(332, 41);
+            label1.Size = new Size(221, 27);
             label1.TabIndex = 0;
             label1.Text = "ADD CUSTOMER";
             // 
             // txtcustomername
             // 
             txtcustomername.AutoSize = true;
-            txtcustomername.Location = new Point(321, 130);
+            txtcustomername.Location = new Point(225, 78);
+            txtcustomername.Margin = new Padding(2, 0, 2, 0);
             txtcustomername.Name = "txtcustomername";
-            txtcustomername.Size = new Size(141, 25);
+            txtcustomername.Size = new Size(94, 15);
             txtcustomername.TabIndex = 1;
             txtcustomername.Text = "Customer Name";
             // 
             // txtphoneno
             // 
             txtphoneno.AutoSize = true;
-            txtphoneno.Location = new Point(321, 176);
+            txtphoneno.Location = new Point(225, 106);
+            txtphoneno.Margin = new Padding(2, 0, 2, 0);
             txtphoneno.Name = "txtphoneno";
-            txtphoneno.Size = new Size(91, 25);
+            txtphoneno.Size = new Size(60, 15);
             txtphoneno.TabIndex = 2;
             txtphoneno.Text = "Phone No";
             // 
             // txtpizzaname
             // 
             txtpizzaname.AutoSize = true;
-            txtpizzaname.Location = new Point(321, 226);
+            txtpizzaname.Location = new Point(225, 136);
+            txtpizzaname.Margin = new Padding(2, 0, 2, 0);
             txtpizzaname.Name = "txtpizzaname";
-            txtpizzaname.Size = new Size(103, 25);
+            txtpizzaname.Size = new Size(68, 15);
             txtpizzaname.TabIndex = 3;
             txtpizzaname.Text = "Pizza Name";
             // 
             // txtsalad
             // 
             txtsalad.AutoSize = true;
-            txtsalad.Location = new Point(321, 280);
+            txtsalad.Location = new Point(225, 168);
+            txtsalad.Margin = new Padding(2, 0, 2, 0);
             txtsalad.Name = "txtsalad";
-            txtsalad.Size = new Size(55, 25);
+            txtsalad.Size = new Size(35, 15);
             txtsalad.TabIndex = 4;
             txtsalad.Text = "Salad";
             // 
             // txtdrink
             // 
             txtdrink.AutoSize = true;
-            txtdrink.Location = new Point(321, 337);
+            txtdrink.Location = new Point(225, 202);
+            txtdrink.Margin = new Padding(2, 0, 2, 0);
             txtdrink.Name = "txtdrink";
-            txtdrink.Size = new Size(54, 25);
+            txtdrink.Size = new Size(35, 15);
             txtdrink.TabIndex = 5;
             txtdrink.Text = "Drink";
             // 
-            // txtgovttax
+            // label69
             // 
-            txtgovttax.AutoSize = true;
-            txtgovttax.Location = new Point(321, 392);
-            txtgovttax.Name = "txtgovttax";
-            txtgovttax.Size = new Size(79, 25);
-            txtgovttax.TabIndex = 6;
-            txtgovttax.Text = "Govt Tax";
+            label69.AutoSize = true;
+            label69.Location = new Point(225, 235);
+            label69.Margin = new Padding(2, 0, 2, 0);
+            label69.Name = "label69";
+            label69.Size = new Size(52, 15);
+            label69.TabIndex = 6;
+            label69.Text = "Govt Tax";
             // 
-            // txttotal
+            // label9
             // 
-            txttotal.AutoSize = true;
-            txttotal.Location = new Point(321, 446);
-            txttotal.Name = "txttotal";
-            txttotal.Size = new Size(49, 25);
-            txttotal.TabIndex = 9;
-            txttotal.Text = "Total";
+            label9.AutoSize = true;
+            label9.Location = new Point(225, 268);
+            label9.Margin = new Padding(2, 0, 2, 0);
+            label9.Name = "label9";
+            label9.Size = new Size(32, 15);
+            label9.TabIndex = 9;
+            label9.Text = "Total";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(606, 120);
+            textBox1.Location = new Point(424, 72);
+            textBox1.Margin = new Padding(2);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(232, 31);
+            textBox1.Size = new Size(164, 23);
             textBox1.TabIndex = 10;
             // 
-            // textBox2
+            // txttotal
             // 
-            textBox2.Location = new Point(606, 443);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(232, 31);
-            textBox2.TabIndex = 11;
+            txttotal.Location = new Point(424, 266);
+            txttotal.Margin = new Padding(2);
+            txttotal.Name = "txttotal";
+            txttotal.Size = new Size(164, 23);
+            txttotal.TabIndex = 11;
             // 
-            // textBox3
+            // txtgovttax
             // 
-            textBox3.Location = new Point(606, 386);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(232, 31);
-            textBox3.TabIndex = 12;
+            txtgovttax.Location = new Point(424, 232);
+            txtgovttax.Margin = new Padding(2);
+            txtgovttax.Name = "txtgovttax";
+            txtgovttax.Size = new Size(164, 23);
+            txtgovttax.TabIndex = 12;
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(606, 176);
+            textBox4.Location = new Point(424, 106);
+            textBox4.Margin = new Padding(2);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(232, 31);
+            textBox4.Size = new Size(164, 23);
             textBox4.TabIndex = 13;
             // 
             // comboBox1
@@ -154,9 +166,10 @@
             comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Sausage", "Supreme", "Fajita", "Tikka", "Vegetable", "Cheese" });
-            comboBox1.Location = new Point(606, 226);
+            comboBox1.Location = new Point(424, 136);
+            comboBox1.Margin = new Padding(2);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(232, 33);
+            comboBox1.Size = new Size(164, 23);
             comboBox1.TabIndex = 14;
             // 
             // comboBox2
@@ -164,9 +177,10 @@
             comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "Russian Salad", "Pakistani Salad", "Canadian Salad", "Israeli Salad" });
-            comboBox2.Location = new Point(606, 280);
+            comboBox2.Location = new Point(424, 168);
+            comboBox2.Margin = new Padding(2);
             comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(232, 33);
+            comboBox2.Size = new Size(164, 23);
             comboBox2.TabIndex = 15;
             // 
             // comboBox3
@@ -174,16 +188,18 @@
             comboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox3.FormattingEnabled = true;
             comboBox3.Items.AddRange(new object[] { "Wine", "Beer", "Cola", "Red Apple", "Gold Apple", "Milk" });
-            comboBox3.Location = new Point(606, 329);
+            comboBox3.Location = new Point(424, 197);
+            comboBox3.Margin = new Padding(2);
             comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(232, 33);
+            comboBox3.Size = new Size(164, 23);
             comboBox3.TabIndex = 16;
             // 
             // btnback
             // 
-            btnback.Location = new Point(12, 548);
+            btnback.Location = new Point(8, 329);
+            btnback.Margin = new Padding(2);
             btnback.Name = "btnback";
-            btnback.Size = new Size(109, 46);
+            btnback.Size = new Size(76, 28);
             btnback.TabIndex = 17;
             btnback.Text = "Back";
             btnback.UseVisualStyleBackColor = true;
@@ -191,9 +207,10 @@
             // 
             // btnexit
             // 
-            btnexit.Location = new Point(1044, 548);
+            btnexit.Location = new Point(731, 329);
+            btnexit.Margin = new Padding(2);
             btnexit.Name = "btnexit";
-            btnexit.Size = new Size(109, 46);
+            btnexit.Size = new Size(76, 28);
             btnexit.TabIndex = 18;
             btnexit.Text = "Exit";
             btnexit.UseVisualStyleBackColor = true;
@@ -201,9 +218,10 @@
             // 
             // btnadd
             // 
-            btnadd.Location = new Point(1044, 481);
+            btnadd.Location = new Point(731, 289);
+            btnadd.Margin = new Padding(2);
             btnadd.Name = "btnadd";
-            btnadd.Size = new Size(109, 46);
+            btnadd.Size = new Size(76, 28);
             btnadd.TabIndex = 19;
             btnadd.Text = "Add";
             btnadd.UseVisualStyleBackColor = true;
@@ -211,9 +229,9 @@
             // 
             // Addcustomer
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1165, 606);
+            ClientSize = new Size(816, 364);
             Controls.Add(btnadd);
             Controls.Add(btnexit);
             Controls.Add(btnback);
@@ -221,17 +239,18 @@
             Controls.Add(comboBox2);
             Controls.Add(comboBox1);
             Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(txttotal);
             Controls.Add(txtgovttax);
+            Controls.Add(txttotal);
+            Controls.Add(textBox1);
+            Controls.Add(label9);
+            Controls.Add(label69);
             Controls.Add(txtdrink);
             Controls.Add(txtsalad);
             Controls.Add(txtpizzaname);
             Controls.Add(txtphoneno);
             Controls.Add(txtcustomername);
             Controls.Add(label1);
+            Margin = new Padding(2);
             Name = "Addcustomer";
             Text = "Addcustomer";
             Load += Addcustomer_Load;
@@ -247,11 +266,11 @@
         private Label txtpizzaname;
         private Label txtsalad;
         private Label txtdrink;
-        private Label txtgovttax;
-        private Label txttotal;
+        private Label label69;
+        private Label label9;
         private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox txttotal;
+        private TextBox txtgovttax;
         private TextBox textBox4;
         private ComboBox comboBox1;
         private ComboBox comboBox2;
